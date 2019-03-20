@@ -6,14 +6,14 @@ docker-compose up -d
 docker-compose ps
 ```
 
+## exec node test.js
+```
+docker exec -it node8 node test.js
+```
+
 ## login container
 ```
 docker exec -it node8 /bin/sh
-```
-
-## exec node app
-```
-docker exec -it node8 node main.js
 ```
 
 ## check logs
