@@ -1,14 +1,14 @@
 # node8
 
-### start container
+## start container
 docker-compose up -d
 docker-compose ps
 
-### login container
+## login container
 docker exec -it node8 /bin/sh
 
-### exec node app
+## exec node app
 docker exec -it node8 node main.js
 
-### check logs
+## check logs
 docker logs node8
