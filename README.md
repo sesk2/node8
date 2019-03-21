@@ -6,7 +6,7 @@ docker-compose up -d
 docker-compose ps
 ```
 
-## exec node test.js
+## run node test.js
 ```
 docker exec -it node8 node test.js
 ```
@@ -16,9 +16,9 @@ docker exec -it node8 node test.js
 docker exec -it node8 /bin/sh
 ```
 
-## exec node apps
+## run node apps
 1. put app files in ./app .
-2. exec node by a command below.
+2. run app by a command below.
 ```
 docker exec -it node8 main.js
 ```
